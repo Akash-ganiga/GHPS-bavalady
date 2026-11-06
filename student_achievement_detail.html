@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <title>GHPS Bavalady - Student Achievement</title>
+</head>
+
+<body>
+    <script src="js/vendor/jquery.min.js"></script>
+
+    <header class="sticky-top bg-white">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid ps-3">
+                    <div class="logo-container">
+                        <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered accent-color-2"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 gap-1">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Faculty</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academic Programs</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">Academic Programs</a></li>
+                                    <li><a class="dropdown-item" href="service_detail.html">Program Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="project.html">Campus Life</a></li>
+                                    <li><a class="dropdown-item" href="project_detail.html">Campus Facilities</a></li>
+                                    <li><a class="dropdown-item" href="price_plan.html">Fee Structure</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Notice Board</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Notice Board</a></li>
+                                    <li><a class="dropdown-item" href="single_blog.html">Event Details</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="mb-xl-0 mb-3">
+                            <a href="contact.html" class="btn btn-accent px-5 py-3">Admissions</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="section position-relative"
+            style="background-image: url(image/image-1920x1280-10.jpg); height: 55vh;">
+            <div class="image-overlay"></div>
+            <div class="r-container h-100 position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column w-100 h-100 justify-content-center align-items-center mx-auto text-center text-white gap-3"
+                    style="max-width: 895px;">
+                    <h1 class="font-1 m-0 text-white fw-semibold" id="student-name-banner">Student Achievement</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Student Achievement</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-4">
+                    <div class="mb-5 position-relative">
+                        <img id="student-main-image" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80" alt="Student Achievement" class="img-fluid rounded-4" style="height: 500px; width: 100%; object-fit: cover;">
+                        <div class="floating-bottom linear-gradient rounded-4 text-white p-5">
+                            <div class="d-flex flex-xl-row flex-md-row flex-column gap-5">
+                                <div class="col">
+                                    <h4>Student Name</h4>
+                                    <h5 id="student-name">Aarav Nair</h5>
+                                </div>
+                                <div class="col">
+                                    <h4>Grade</h4>
+                                    <h5 id="student-grade">Grade 8</h5>
+                                </div>
+                                <div class="col">
+                                    <h4>Achievement</h4>
+                                    <h5 id="student-achievement">Science Fair Winner</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-xl-5 mt-md-5 mt-sm-0 mt-0 mb-3">
+                        <h3 class="font-1 fw-semibold" id="student-story-title">A Story of Curiosity and Excellence</h3>
+                    </div>
+                    <div class="mb-4">
+                        <p id="student-summary">
+                            Aarav Nair showcased outstanding creativity and dedication in the district science fair, building an eco-energy model that impressed judges and peers alike.
+                        </p>
+                        <p id="student-details">
+                            His project combined research, design thinking, and practical innovation to address a real environmental challenge. Through hard work, mentorship, and consistency, Aarav proved that thoughtful ideas can create meaningful impact.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h4 class="fw-semibold">Achievement Gallery</h4>
+                    </div>
+                    <div id="student-gallery" class="row row-cols-lg-3 row-cols-1 g-4">
+                        <div class="col"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Achievement" class="img-fluid rounded-4" style="height: 260px; width: 100%; object-fit: cover;"></div>
+                        <div class="col"><img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80" alt="Achievement" class="img-fluid rounded-4" style="height: 260px; width: 100%; object-fit: cover;"></div>
+                        <div class="col"><img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80" alt="Achievement" class="img-fluid rounded-4" style="height: 260px; width: 100%; object-fit: cover;"></div>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="index.html" class="btn btn-accent px-5 py-3">Back to Student Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="section pb-0 bg-accent">
+            <div class="r-container">
+                <div class="border-bottom">
+                    <div class="row row-cols-lg-2 row-cols-1">
+                        <div class="col col-lg-4 mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <img src="image/logo.png" alt="" class="img-fluid" width="160">
+                                <p class="text-color-2">
+                                    GHPS Bavalady is committed to nurturing academic excellence, creativity, and moral values in every student.
+                                </p>
+                                <div class="social-container mb-lg-0 mb-3">
+                                    <a href="https://www.facebook.com" class="social-item"><i class="fa-brands fa-xs fa-facebook-f"></i></a>
+                                    <a href="https://www.twitter.com" class="social-item"><i class="fa-brands fa-xs fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com" class="social-item"><i class="fa-brands fa-xs fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com" class="social-item"><i class="fa-brands fa-xs fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-8 mb-3">
+                            <div class="row row-cols-lg-3 row-cols-1">
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="pb-2 w-max-content pe-3"><h4 class="fw-semibold">Quick Links</h4></div>
+                                        <ul class="list gap-2">
+                                            <li><a href="index.html" class="link d-flex flex-row gap-3 align-items-center">Homepage</a></li>
+                                            <li><a href="about.html" class="link d-flex flex-row gap-3 align-items-center">About Us</a></li>
+                                            <li><a href="services.html" class="link d-flex flex-row gap-3 align-items-center">Academic Programs</a></li>
+                                            <li><a href="team.html" class="link d-flex flex-row gap-3 align-items-center">Our Faculty</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="pb-2 w-max-content pe-3"><h4 class="fw-semibold">Academic Programs</h4></div>
+                                        <ul class="list gap-2">
+                                            <li><a href="" class="link d-flex flex-row gap-3 align-items-center">Primary Education</a></li>
+                                            <li><a href="" class="link d-flex flex-row gap-3 align-items-center">Secondary Education</a></li>
+                                            <li><a href="" class="link d-flex flex-row gap-3 align-items-center">Extracurricular Activities</a></li>
+                                            <li><a href="" class="link d-flex flex-row gap-3 align-items-center">Sports & Athletics</a></li>
+                                            <li><a href="" class="link d-flex flex-row gap-3 align-items-center">Arts & Crafts</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="pb-2 w-max-content pe-3"><h4 class="fw-semibold">Get In Touch</h4></div>
+                                        <ul class="list gap-3">
+                                            <li><span class="d-flex flex-row align-items-center gap-3"><div class="contact-item"><i class="fa-solid fa-2xs fa-location-dot"></i></div><span>G H P S Bavalady, Pune</span></span></li>
+                                            <li><span class="d-flex flex-row align-items-center gap-3"><div class="contact-item"><i class="fa-solid fa-2xs fa-phone"></i></div><span>+91 98765 43210</span></span></li>
+                                            <li><span class="d-flex flex-row align-items-center gap-3"><div class="contact-item"><i class="fa-solid fa-2xs fa-envelope"></i></div><span>info@ghpsbavalady.edu</span></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const studentData = {
+            aarav: {
+                name: 'Aarav Nair',
+                banner: 'Aarav Nair',
+                grade: 'Grade 8',
+                achievement: 'Science Fair Winner',
+                summary: 'Aarav Nair showcased outstanding creativity and dedication in the district science fair, building an eco-energy model that impressed judges and peers alike.',
+                details: 'His project combined research, design thinking, and practical innovation to address a real environmental challenge. Through hard work, mentorship, and consistency, Aarav proved that thoughtful ideas can create meaningful impact.',
+                mainImage: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80',
+                gallery: [
+                    'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80'
+                ]
+            },
+            meera: {
+                name: 'Meera Kulkarni',
+                banner: 'Meera Kulkarni',
+                grade: 'Grade 9',
+                achievement: 'Debate Champion',
+                summary: 'Meera Kulkarni won the state-level inter-school debate challenge with confidence, clarity, and outstanding public speaking skills.',
+                details: 'Her ability to articulate ideas, respond thoughtfully under pressure, and inspire teammates made her a standout performer. Meera continues to represent her school with excellence in academic and co-curricular leadership.',
+                mainImage: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80',
+                gallery: [
+                    'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80'
+                ]
+            },
+            rohan: {
+                name: 'Rohan Patil',
+                banner: 'Rohan Patil',
+                grade: 'Grade 7',
+                achievement: 'Sports Excellence',
+                summary: 'Rohan Patil represented the district in athletics and earned medals in sprint events through discipline and relentless practice.',
+                details: 'His determination, team spirit, and focus helped him become a role model for younger students. Rohan’s achievements reflect the importance of balance, fitness, and commitment both on and off the field.',
+                mainImage: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80',
+                gallery: [
+                    'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80',
+                    'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80'
+                ]
+            }
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const studentKey = params.get('student') || 'aarav';
+        const student = studentData[studentKey] || studentData.aarav;
+
+        document.getElementById('student-name-banner').textContent = student.banner;
+        document.getElementById('student-name').textContent = student.name;
+        document.getElementById('student-grade').textContent = student.grade;
+        document.getElementById('student-achievement').textContent = student.achievement;
+        document.getElementById('student-summary').textContent = student.summary;
+        document.getElementById('student-details').textContent = student.details;
+        document.getElementById('student-main-image').src = student.mainImage;
+        document.getElementById('student-main-image').alt = student.name;
+
+        const gallery = document.getElementById('student-gallery');
+        gallery.innerHTML = student.gallery.map((image) => `
+            <div class="col">
+                <img src="${image}" alt="${student.name} achievement" class="img-fluid rounded-4" style="height: 260px; width: 100%; object-fit: cover;">
+            </div>
+        `).join('');
+    </script>
+</body>
+
+</html>
